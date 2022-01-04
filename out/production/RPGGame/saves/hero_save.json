@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Warrior",
+    "healthPoints": 2000.0,
+    "level": 1,
+    "skillCostUnit": 100,
+    "defensePoints": 0.0,
+    "damagePoints": 15.0,
+    "availableStatPoints": 0,
+    "weapon": {
+      "name": "Sword",
+      "damage": 10.0
+    },
+    "skillset": {
+      "skills": [
+        {
+          "name": "Furious Slash",
+          "cost": 25,
+          "damage": 7.5
+        },
+        {
+          "name": "Storm Bolt",
+          "cost": 30,
+          "damage": 9.0
+        },
+        {
+          "name": "Bladestorm",
+          "cost": 50,
+          "damage": 17.0
+        },
+        {
+          "name": "Meat Cleaver",
+          "cost": 35,
+          "damage": 11.5
+        },
+        {
+          "name": "Massacre",
+          "cost": 15,
+          "damage": 5.0
+        }
+      ]
+    },
+    "armors": [],
+    "stats": {
+      "strength": 0,
+      "dexterity": 0,
+      "vitality": 0,
+      "intelligence": 0,
+      "agility": 0
+    }
+  },
+  {
+    "name": "Rogue",
+    "healthPoints": 6725.0,
+    "level": 99,
+    "skillCostUnit": 200,
+    "defensePoints": 311.0,
+    "damagePoints": 1453.0,
+    "availableStatPoints": 0,
+    "weapon": {
+      "name": "Daggers",
+      "damage": 152.5
+    },
+    "skillset": {
+      "skills": [
+        {
+          "name": "Dancing Steel",
+          "cost": 25,
+          "damage": 15.0
+        },
+        {
+          "name": "Cheat Death",
+          "cost": 50,
+          "damage": 35.0
+        },
+        {
+          "name": "Killing Spree",
+          "cost": 75,
+          "damage": 50.0
+        },
+        {
+          "name": "Acrobatic Strikes",
+          "cost": 30,
+          "damage": 20.0
+        },
+        {
+          "name": "Hit and Run",
+          "cost": 35,
+          "damage": 25.0
+        }
+      ]
+    },
+    "armors": [
+      {
+        "name": "Boots",
+        "levelDependency": 1,
+        "defensePoints": 3.5
+      },
+      {
+        "name": "Gloves",
+        "levelDependency": 3,
+        "defensePoints": 5.5
+      },
+      {
+        "name": "Helmet",
+        "levelDependency": 5,
+        "defensePoints": 7.5
+      },
+      {
+        "name": "Leggings",
+        "levelDependency": 7,
+        "defensePoints": 12.0
+      },
+      {
+        "name": "Chest",
+        "levelDependency": 10,
+        "defensePoints": 20.0
+      }
+    ],
+    "stats": {
+      "strength": 192,
+      "dexterity": 44,
+      "vitality": 120,
+      "intelligence": 156,
+      "agility": 188
+    }
+  }
+]
